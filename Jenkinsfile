@@ -1,4 +1,6 @@
-elifePipeline {
+pipeline {
+    agent any
+
     node('containers-jenkins-plugin') {
         def commit
         def version
